@@ -1,128 +1,102 @@
 {
   "$schema": "./config.schema.json",
   "commands": {
-    "default": "\"C:\\Program Files\\Microsoft VS Code\\Code.exe\" \"%1\"",
-    "chrome": "\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\" -- \"%1\"",
-    "bandizip": "\"C:\\Program Files\\Bandizip\\Bandizip.exe\" \"%1\"",
-    "sumatra": "\"C:\\Program Files\\SumatraPDF\\SumatraPDF.exe\" \"%1\""
+    "default": "\"D:\\Softwares\\Nvim\\bin\\Nvy.exe\" \"%1\""
   },
   "types": {
-    "babelrc": {
-      "name": "Babel Configuration File"
+    "c": {
+      "name": "C source file",
+      "open": "default"
     },
-    "cbz": {
-      "name": "Comic Book Archive",
-      "aliases": [ "cbr", "cb7" ],
-      "icon": "book",
-      "open": "sumatra"
+    "cpp": {
+      "name": "C++ source file",
+      "open": "default",
+      "aliases": [ "cc", "cxx", "c++" ]
     },
-    "coffee": {
-      "name": "CoffeeScript File"
+    "h": {
+      "name": "C header file",
+      "open": "default"
     },
-    "conf": {
-      "name": "Configuration File",
-      "icon": "%SystemRoot%\\system32\\imageres.dll,-69"
+    "hpp": {
+      "name": "C++ header file",
+      "open": "default",
+      "aliases": [ "hh", "hxx" ]
     },
-    "config": {
-      "name": "XML Configuration File",
-      "icon": "xml"
+    "cs": {
+      "name": "C# source file",
+      "open": "default",
+      "aliases": [ "csx" ]
     },
-    "cson": {
-      "name": "CSON File",
-      "icon": "coffee"
+    "rs": {
+      "name": "Rust source file",
+      "open": "default"
+    },
+    "lua": {
+      "name": "Lua source file",
+      "open": "default"
+    },
+    "py": {
+      "name": "Python source file",
+      "open": "default",
+      "aliases": [ "pyi" ]
+    },
+    "vim": {
+      "name": "Vim script file",
+      "open": "default"
     },
     "css": {
-      "name": "Cascading Stylesheet"
+      "name": "Cascading Stylesheet",
+      "open": "default"
     },
-    "editorconfig": {
-      "name": "Editor Configuration File"
-    },
-    "ejs": {
-      "name": "Embedded JavaScript Template"
-    },
-    "epub": {
-      "name": "Book (EPUB)",
-      "icon": "book",
-      "open": "sumatra"
-    },
-    "gitconfig": {
-      "name": "Git Configuration File",
-      "aliases": [ "gitignore", "gitattributes", "gitmodules" ],
-      "icon": "git"
-    },
-    "html": {
-      "name": "HTML File",
-      "aliases": [ "htm", "xhtml" ],
-      "open": "chrome"
-    },
-    "ini": {
-      "name": "INI Configuration File",
-      "icon": "%SystemRoot%\\system32\\imageres.dll,-69"
+    "sass": {
+      "name": "Sassy Cascading Stylesheet",
+      "open": "default",
+      "aliases": [ "scss" ]
     },
     "js": {
-      "name": "JavaScript File",
-      "aliases": [ "jsx" ]
-    },
-    "json": {
-      "name": "JSON File"
-    },
-    "less": {
-      "name": "Less Stylesheet"
-    },
-    "md": {
-      "name": "Markdown Document"
-    },
-    "mobi": {
-      "name": "Book (MOBI)",
-      "icon": "book",
-      "open": "sumatra"
-    },
-    "npmrc": {
-      "name": "NPM Configuration File",
-      "aliases": [ "npmignore" ],
-      "icon": "npm"
-    },
-    "nupkg": {
-      "name": "NuGet Package",
-      "icon": "nuget",
-      "open": "bandizip",
-      "menu": {
-        "&Unpack": "C:\\Windows\\System32\\cmd.exe /c extract-nupkg.exe \"%1\""
-      }
-    },
-    "nuspec": {
-      "name": "NuGet Spec",
-      "icon": "nuget",
-      "menu": {
-        "&Pack": "C:\\Windows\\System32\\cmd.exe /c \"nuget pack \"%1\" -NoPackageAnalysis || pause\""
-      }
-    },
-    "php": {
-      "name": "PHP File"
-    },
-    "scss": {
-      "name": "Sass Stylesheet"
-    },
-    "sql": {
-      "name": "SQL File"
+      "name": "JavaScript file",
+      "open": "default",
+      "aliases": [ "jsx", "jsm", "mjs", "cjs" ]
     },
     "ts": {
-      "name": "TypeScript File"
+      "name": "TypeScript file",
+      "open": "default",
+      "aliases": [ "tsx", "mts", "cts" ]
     },
-    "tsx": {
-      "name": "TypeScript React File"
-    },
-    "txt": {
-      "name": "Text Document",
-      "aliases": [ "log", "nfo" ],
-      "icon": "%SystemRoot%\\system32\\imageres.dll,-102"
-    },
-    "xml": {
-      "name": "XML File"
+    "json": {
+      "name": "JSON configuration file",
+      "open": "default",
+      "aliases": [ "jsonc" ]
     },
     "yaml": {
-      "name": "YAML File",
+      "name": "YAML configuration file",
+      "open": "default",
       "aliases": [ "yml" ]
+    },
+    "md": {
+      "name": "Markdown document",
+      "open": "default",
+      "aliases": [ "markdown", "mdown", "mkd", "mkdn", "mdwn" ]
+    },
+    "tex": {
+      "name": "Tex document",
+      "open": "default"
+    },
+    "bib": {
+      "name": "BibTex file",
+      "icon": "tex",
+      "open": "default"
+    },
+    "txt": {
+      "name": "Text document",
+      "icon": "%SystemRoot%\\System32\\imageres.dll,-102",
+      "open": "default",
+      "aliases": [ "text", "log" ]
+    },
+    "ini": {
+      "name": "INI configuration file",
+      "icon": "%SystemRoot%\\system32\\imageres.dll,-69",
+      "open": "default"
     }
   }
 }
