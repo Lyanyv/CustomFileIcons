@@ -2,6 +2,8 @@
 
 ![Example](example.png)
 
+Icons from [simple-icons](https://simpleicons.org)
+
 Configuration-based file association manager for Windows (_not_ an icon suite).
 
 Normally, setting various extensions to open in, say, your favorite editor would result in everything having that program's icon. This makes it difficult to differentiate file types at a glance. This tool instead lets you assign custom icons and associations (and even additional menu items, such as Pack/Unpack for NuGet specs/packages) to files using a simple json file which can be synced across machines.
