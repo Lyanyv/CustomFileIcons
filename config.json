@@ -19,6 +19,7 @@
     },
     "hpp": {
       "name": "C++ header file",
+      "icon": "h",
       "open": "default",
       "aliases": [ "hh", "hxx" ]
     },
