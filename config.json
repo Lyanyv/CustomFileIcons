@@ -1,7 +1,7 @@
 {
   "$schema": "./config.schema.json",
   "commands": {
-    "default": "\"D:\\Softwares\\Nvim\\bin\\Nvy.exe\" \"%1\""
+    "default": "\"C:\\softwares\\Neovim\\bin\\Nvy.exe\" --cursor-timeout=2000 \"%1\""
   },
   "types": {
     "c": {
