@@ -1,7 +1,7 @@
 {
   "$schema": "./config.schema.json",
   "commands": {
-    "default": "\"C:\\softwares\\Neovim\\bin\\Nvy.exe\" --cursor-timeout=2000 \"%1\""
+    "default": "\"C:\\Program Files\\Neovide\\neovide.exe\" --grid 108x34 \"%1\""
   },
   "types": {
     "c": {
@@ -21,7 +21,7 @@
       "name": "C++ header file",
       "icon": "h",
       "open": "default",
-      "aliases": [ "hh", "hxx" ]
+      "aliases": [ "hh", "hxx", "h++", "ipp" ]
     },
     "cs": {
       "name": "C# source file",
