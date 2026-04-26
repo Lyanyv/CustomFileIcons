@@ -1,7 +1,7 @@
 {
   "$schema": "./config.schema.json",
   "commands": {
-    "default": "\"C:\\Program Files\\Neovide\\neovide.exe\" --grid 108x34 \"%1\""
+    "default": "\"C:\\Program Files\\Neovide\\neovide.exe\" --grid 150x50 \"%1\""
   },
   "types": {
     "c": {
